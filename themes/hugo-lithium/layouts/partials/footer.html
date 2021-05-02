@@ -8,6 +8,10 @@
           </li>
         </ul>
       </footer>
+    </div>
+    {{ partial "footer_highlightjs" . }}
+    {{ partial "footer_mathjax" . }}
+    {{ template "_internal/google_analytics.html" . }}
 <script>
   if (window.netlifyIdentity) {
     window.netlifyIdentity.on("init", user => {
@@ -20,9 +24,5 @@
   }
 </script>
 
-    </div>
-    {{ partial "footer_highlightjs" . }}
-    {{ partial "footer_mathjax" . }}
-    {{ template "_internal/google_analytics.html" . }}
   </body>
 </html>
