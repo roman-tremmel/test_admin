@@ -22,7 +22,7 @@ collections:
        label: "Config"
        name: "config"
        fields:
-          - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "baseurl", name: "baseurl", widget: "string"}
 
 
    - name: post
