@@ -23,6 +23,9 @@ collections:
        name: "config"
        fields:
           - {label: "baseurl", name: "baseurl", widget: "string"}
+          - {label: "languageCode", name: "languageCode", widget: "string"}
+          - {label: "title", name: "title", widget: "string"}
+          - {label: "googleAnalytics", name: "googleAnalytics", widget: "string"}
 
 
    - name: post
