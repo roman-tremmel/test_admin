@@ -15,6 +15,5 @@ collections:
        create: false
        slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
        fields:
-         - { label: "Title", name: "title", widget: "string" }
-         - { label: "Body", name: "body", widget: "markdown" }
-
+         - {label: "Title", name: "title", widget: "string"}
+         - {label: "Body", name: "body", widget: "markdown"}
