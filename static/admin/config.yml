@@ -21,6 +21,7 @@ collections:
      label_singular: 'Post'
      folder: content/post
      create: true
+     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
      # adding a nested object will show the collection folder structure
      nested:
       depth: 100 # max depth to show in the collection tree
