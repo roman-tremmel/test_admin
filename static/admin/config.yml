@@ -12,7 +12,6 @@ collections:
       - label: "About"
         name: "About page"
        file: "content/about.md"
-       create: false
        slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
        fields:
          - {label: "Title", name: "title", widget: "string"}
