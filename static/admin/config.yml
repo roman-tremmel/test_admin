@@ -18,6 +18,12 @@ collections:
        fields:
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Body", name: "body", widget: "markdown"}
+     - file: "config.yaml"
+       label: "Config"
+       name: "config"
+       fields:
+          - {label: "Body", name: "body", widget: "markdown"}
+
 
    - name: post
      label: Post
