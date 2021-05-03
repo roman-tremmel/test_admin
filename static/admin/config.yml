@@ -8,7 +8,7 @@ public_folder: 'static'
 collections:
      - name: "About page"
        label: "About"
-       folder: "content/about.md"
+       file: "content/about.md"
        create: false
        slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
        fields:
