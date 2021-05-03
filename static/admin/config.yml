@@ -16,13 +16,6 @@ collections:
      fields:
          - {label: "Title", name: "title", widget: "string"}
          - {label: "Body", name: "body", widget: "markdown"}
-   - name: "post"
-     label: "post"
-     folder: "content/post"
-     create: true
-     fields:
-         - {label: "Title", name: "title", widget: "string"}
-         - {label: "Body", name: "body", widget: "markdown"}
    - name: post
      label: Post
      label_singular: 'Post'
