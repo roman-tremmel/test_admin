@@ -9,13 +9,16 @@ media_folder: 'static' # Folder where user uploaded files should go
 public_folder: 'static'
 
 collections:
-   - name: "about"
-     label: "about page"
-     folder: "content"
-     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-     fields:
-         - {label: "Title", name: "title", widget: "string"}
-         - {label: "Body", name: "body", widget: "markdown"}
+   - name: "pages"
+     label: "Pages"
+     files:
+     - file: "content/about.md"
+       label: "About"
+       name: "about"
+       fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name: "body", widget: "markdown"}
+
    - name: post
      label: Post
      label_singular: 'Post'
