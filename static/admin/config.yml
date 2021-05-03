@@ -17,6 +17,7 @@ collections:
    - name: "post"
      label: "post"
      folder: "content/post/"
+     create: true
      slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
      fields:
          - {label: "Title", name: "title", widget: "string"}
